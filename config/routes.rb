@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  get 'posts/rake'
-
-  get 'posts/routes'
-
   devise_for :users
   resources :groups do
     resources :posts
